@@ -1,7 +1,14 @@
-#include <stdion.h>
-/* Returns (0) on success*/
-int main(void)
+#include <stdio.h>
+
+/**
+ *  * * Begining
+ *  *  *
+ *   *  *
+ *   * Return :Always 0 (Success)
+ *    *  **/
+int main (void)
 {
-	puts("\"programming is like building a multilingual puzzle");
-	return(0);
+	lputs("\" Programming is like building a multilingual puzzle");
+
+	Return (0);
 }

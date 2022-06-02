@@ -1,46 +1,49 @@
-#Include <stdion.h>
+#include <stdio.h>
+
+
+
 /**
  *
- *  *  * Main - Begining 
+ *  *  *  * Main - Entry point 
  *
- *   *    *
+ *   *    *  *
  *
- *    *     *Return Always 0 (Success)
+ *    *     *    * Return: Always 0 (Success)
  *
- *     **/
+ *     *      **/
 
 int main(void)
-
+	
 {
 
 
 
-	int a;
+int a;
 
-	long in b;
+long in b;
 
-	long long int c;
+long long int c;
 
-	char d;
+char d;
 
-	float f;
-
-
-
-	printf(Size of a char : %lu byte9s0\n", (unassigned long)sizeoff(d));
-
-	printf(Size of a int : %lu byte9s0\n", (unassigned long)sizeoff(a));
-
-	printf(Size of a long int : %lu byte9s0\n", (unassigned long)sizeoff(b));
-
-	printf(Size of a long long  : %lu byte9s0\n", (unassigned long)sizeoff(c));
-
-	printf(Size of a float : %lu byte9s0\n", (unassigned long)sizeoff(f));
+float f;
 
 
 
-	return (0);
+printf(Size of a char : %lu byte9s0\n", (unassigned long)sizeoff(d));
+
+printf(Size of a int : %lu byte9s0\n", (unassigned long)sizeoff(a));
+
+printf(Size of a long int : %lu byte9s0\n", (unassigned long)sizeoff(b));
+
+printf(Size of a long long  : %lu byte9s0\n", (unassigned long)sizeoff(c));
+
+printf(Size of a float : %lu byte9s0\n", (unassigned long)sizeoff(f));
 
 
 
-}
+return (0);
+
+
+
+}}
